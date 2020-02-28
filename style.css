@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+header{
+    background-color: #404040;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+header h1{
+    border-right: 2px solid white;
+    padding-right: 20%;
+    color: white;
+}
+h1, h2{
+    text-align: center;
+}
+header input{
+    background-color: #303030;
+    color: #7b7b7b;
+    border-radius: 15px;
+    border: 1px solid #404040;
+    font-size: 20px;
+    width: 30%;
+}
+#validerHeader{
+    background-color: rgba(65, 105, 225, 0.6);
+    color: white;
+    border: 0px;
+    width: 20%;
+}
+header #deco
+{
+    background-color: rgba(65, 105, 225, 0.6);
+    color: white;
+    font-size: 20px;
+    height: 15%;
+    width: 100%;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(65, 105, 225, 0.6);
+    border-radius: 15px;
+    border: 1px solid #404040;
+    font-size: 20px;
+    height: 15%;
+    width: 20%;
+}
+p{
+    color: grey;
+    font-size: 20px;
+}
+#main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#articles{
+    margin-bottom: 10px;
+    text-align: center;
+}
+img{
+    width: 80%;
+    height: auto;
+    margin: 0% 10%;
+}
+.article{
+    background-color: #b6b6b6;
+    width: 20%;
+    height: 30%;
+    margin: 4% 2.5%;
+}
+.comm{
+    background-color: #dcdcdc;
+    margin-bottom: 10px;
+}
